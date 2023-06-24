@@ -4,7 +4,7 @@
 
 <h2><b>Fitur Readoit</b></h2>
 <br>
-Fitur yang ditawarkan Untuk saat ini oleh Readoit Project hanya ada beberapa diantaranya : 
+Fitur yang ditawarkan untuk saat ini oleh Readoit Project hanya ada beberapa diantaranya : 
 <br>
 <h3><b>Asisten Belajar</b></h3>
 <br>
