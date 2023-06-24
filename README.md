@@ -22,7 +22,7 @@ Sama seperti fitur Reminder Jadwal fitur ini juga merupakan fitur yang masih dal
 <br>
 <h2><b>Kelebihan Readoit</b></h2>
 <br>
-Readoit memiliki beberapa kelebihan antaralain :
+Readoit memiliki beberapa kelebihan antara lain :
 <ul>
     <li>Memiliki design yang dapat diterima semua kalangan</li>
     <li>Mudah diakses oleh berbagai kalangan</li>
