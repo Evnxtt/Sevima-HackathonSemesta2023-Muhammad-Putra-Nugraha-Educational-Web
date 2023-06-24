@@ -19,5 +19,6 @@ Fitur ini merupakan fitur yang masih dalam tahap pengembangan. Fungsi dari fitur
 <h3><b>Partner Belajar</b></h3>
 <br>
 <span style="color: red;">(Unavailable)</span>
+<font color="green"> Some green text </font>
 <br>
 Sama seperti fitur Reminder Jadwal fitur ini juga merupakan fitur yang masih dalam tahap pengembangan. Kegunaan dari fitur ini berupa teman belajar yang bisa diajak bicara oleh user baik menggunakan teks ataupun menggunakan suara.
