@@ -72,11 +72,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-<<<<<<< HEAD
-      <a href="" class="Question-btn scrollto"><span class="d-none d-md-inline">Ask An</span>
-=======
       <a href="/chat" class="Question-btn scrollto"><span class="d-none d-md-inline">Ask An</span>
->>>>>>> dd7e0e2 (update2)
         Question</a>
 
     </div>
@@ -138,7 +134,7 @@
 
         <div class="row">
           <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+            
           </div>
 
           <div
@@ -147,7 +143,7 @@
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="#about">Asisten Belajar</a></h4>
+              <h4 class="title"><a href="/chat">Asisten Belajar</a></h4>
               <p class="description">Kami menawarkan AI yang berguna untuk mempermudah anda dalam belajar sesuatu</p>
             </div>
 

@@ -2,10 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use OpenAI\Laravel\Facades\OpenAI;
-<<<<<<< HEAD
-=======
 use App\Http\Controllers\ChatController;
->>>>>>> dd7e0e2 (update2)
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +19,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-<<<<<<< HEAD
 // Route::get('/chat', function () {
 
 
@@ -33,7 +29,6 @@ Route::get('/', function () {
 
 //     echo $result['choices'][0]['text']; // an open-source, widely-used, server-side scripting language.
 // });
-=======
 Route::get('/chat', function () {
     $title = '';
     $content = '';
@@ -41,4 +36,3 @@ Route::get('/chat', function () {
 });
 
 Route::post('/chat/generate', [ChatController::class, 'index']);
->>>>>>> dd7e0e2 (update2)

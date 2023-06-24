@@ -54,17 +54,17 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Style CSS File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
 
   <!-- Template Font Awesome -->
   <script src="https://kit.fontawesome.com/24a479eac0.js" crossorigin="anonymous"></script>
@@ -124,7 +124,7 @@
             	<div class="w-full rounded-md bg-white border-2 border-gray-600 p-4 min-h-[60px] h-full text-gray-600">
                 	<form action="/chat/generate" method="post" class="inline-flex gap-2 w-full">
                     	@csrf
-                    	<input required name="title" class="w-full outline-none text-2xl font-bold" value="{{ $title }}" placeholder="Type your article title..." />
+                    	<input required name="title" class="w-full outline-none text-2xl font-bold" value="{{ $title }}" placeholder="Tanyakan sesuatu..." />
                     	<button class="rounded-md bg-blue-500 px-4 py-2 text-white font-semibold">Generate</button>
                 	</form>
             	</div>
@@ -173,7 +173,7 @@
   <script src="vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
 </body>
 
 </html>
