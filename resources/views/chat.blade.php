@@ -1,37 +1,4 @@
-{{-- <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    	<title>Writer Bot - AI Writing Assistant for Bloggers</title>
-   	 
-    	<script src="https://cdn.tailwindcss.com"></script>
-
-	</head>
-	<body>
-    	<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-        	<div class="max-w-6xl w-full mx-auto sm:px-6 lg:px-8 space-y-4 py-4">
-            	<div class="text-center text-gray-800 dark:text-gray-300 py-4">
-                	<h1 class="text-7xl font-bold">Writer bot</h1>
-            	</div>
-
-            	<div class="w-full rounded-md bg-white border-2 border-gray-600 p-4 min-h-[60px] h-full text-gray-600">
-                	<form action="/chat/generate" method="post" class="inline-flex gap-2 w-full">
-                    	@csrf
-                    	<input required name="title" class="w-full outline-none text-2xl font-bold" value="{{ $title }}" placeholder="Type your article title..." />
-                    	<button class="rounded-md bg-emerald-500 px-4 py-2 text-white font-semibold">Generate</button>
-                	</form>
-            	</div>
-            	@if($content)
-            	<div class="w-full rounded-md bg-white border-2 border-gray-600 p-4 min-h-[720px] h-full text-gray-600">
-                	<textarea class="min-h-[500px] h-full w-full outline-none" spellcheck="false">{{ $content }}</textarea>
-            	</div>
-            	@endif
-        	</div>
-    	</div>
-	</body>
-</html> --}}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +7,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Edu Web - Home</title>
+  <title>Readoit - Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -97,18 +64,36 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html"><i>Edu Web</i></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="/" class="logo me-2"><img src="img/1434841901687510444-512.png" alt="" class="img-fluid"></a>
+      <h1 class="logo me-auto" style=""><a href="/"><i>Readoit</i></a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="">Logout</a></li>
+          <li><a class="nav-link scrollto active" href="#">Asisten Belajar</a></li>
+          <li><a class="nav-link scrollto" href="#">Reminder Jadwal</a></li>
+          <li><a class="nav-link scrollto" href="#">Partner Belajar</a></li>
+                                      <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }}
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="/" class="Question-btn scrollto"><span class="d-none d-md-inline">Back To</span>
+      <a href="/user" class="Question-btn scrollto"><span class="d-none d-md-inline">Back To</span>
         Home</a>
 
     </div>
@@ -125,7 +110,7 @@
                 	<form action="/chat/generate" method="post" class="inline-flex gap-2 w-full">
                     	@csrf
                     	<input required name="title" class="w-full outline-none text-2xl font-bold" value="{{ $title }}" placeholder="Tanyakan sesuatu..." />
-                    	<button class="rounded-md bg-blue-500 px-4 py-2 text-white font-semibold">Generate</button>
+                    	<button class="rounded-md bg-blue-500 px-4 py-2 text-white font-semibold">Tanyakan</button>
                 	</form>
             	</div>
             	@if($content)

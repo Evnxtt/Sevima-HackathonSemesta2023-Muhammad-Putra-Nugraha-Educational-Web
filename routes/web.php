@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use OpenAI\Laravel\Facades\OpenAI;
 use App\Http\Controllers\ChatController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,20 +20,21 @@ Route::get('/', function () {
     return view('index');
 });
 
-// Route::get('/chat', function () {
 
-
-//     $result = OpenAI::completions()->create([
-//         'model' => 'text-davinci-003',
-//         'prompt' => 'PHP is',
-//     ]);
-
-//     echo $result['choices'][0]['text']; // an open-source, widely-used, server-side scripting language.
-// });
-Route::get('/chat', function () {
-    $title = '';
-    $content = '';
-    return view('chat', compact('title', 'content'));
-});
 
 Route::post('/chat/generate', [ChatController::class, 'index']);
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/user', [UserController::class, 'index']);
+    Route::get('/user/create', [UserController::class, 'create']);
+    Route::post('/user/store', [UserController::class, 'store']);
+    Route::get('/chat', function () {
+        $title = '';
+        $content = '';
+        return view('chat', compact('title', 'content'));
+    });
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
