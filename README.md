@@ -19,3 +19,12 @@ Fitur ini merupakan fitur yang masih dalam tahap pengembangan. Fungsi dari fitur
 <span style="color: red;"><b>(Unavailable)</b></span>
 <br>
 Sama seperti fitur Reminder Jadwal fitur ini juga merupakan fitur yang masih dalam tahap pengembangan. Kegunaan dari fitur ini berupa teman belajar yang bisa diajak bicara oleh user baik menggunakan teks ataupun menggunakan suara.
+<br>
+<h2><b>Kelebihan Readoit</b></h2>
+<br>
+Readoit memiliki beberapa kelebihan antaralain :
+<ul>
+    <li>Memiliki design yang dapat diterima semua kalangan</li>
+    <li>Mudah diakses oleh berbagai kalangan</li>
+    <li>Pengoprasianya yang mudah</li>
+</ul>
