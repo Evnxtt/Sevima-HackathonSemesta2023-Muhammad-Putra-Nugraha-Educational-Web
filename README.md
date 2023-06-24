@@ -1,22 +1,22 @@
 <h1><b>Readoit Projects</b></h1>
 <br>
-**Readoit** adalah sebuah website education yang menyediakan layanan berupa AI yang dapat berinteraksi dengan user.
+<b>Readoit</b> adalah sebuah website education yang menyediakan layanan berupa AI yang dapat berinteraksi dengan user.
 
 <h2><b>Fitur Readoit</b></h2>
 <br>
-**Fitur yang ditawarkan** Untuk saat ini fitur yang ditawarkan oleh Readoit Project hanya ada beberapa diantaranya : 
+Fitur yang ditawarkan Untuk saat ini fitur yang ditawarkan oleh Readoit Project hanya ada beberapa diantaranya : 
 <br>
-<b>Asisten Belajar</b>
+<h3><b>Asisten Belajar</b></h3>
 <br>
 Fitur ini adalah fitur utama pada Readoit Projects. Fitur berupa AI yang bisa berinteraksi dengan user menggunakan text. Jadi user bisa bertanya hal apapun kepada Asisten Belajar ini. 
 <br>
-<b>Reminder Jadwal</b>
+<h3><b>Reminder Jadwal</b></h3>
 <br>
 <span style="color: red;">(Unavailable)</span>
 <br>
 Fitur ini merupakan fitur yang masih dalam tahap pengembangan. Fungsi dari fitur ini yaitu berupa pembuatan jadwal belajar otomatis dan alarm belajar otomatis yang dapat mengingatkan kita untuk belajar.
 <br>
-<b>Partner Belajar</b>
+<h3><b>Partner Belajar</b></h3>
 <br>
 <span style="color: red;">(Unavailable)</span>
 <br>
