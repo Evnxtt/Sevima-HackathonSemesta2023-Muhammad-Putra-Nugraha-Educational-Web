@@ -10,11 +10,12 @@ Fitur yang ditawarkan Untuk saat ini fitur yang ditawarkan oleh Readoit Project 
 <br>
 Fitur ini adalah fitur utama pada Readoit Projects. Fitur berupa AI yang bisa berinteraksi dengan user menggunakan text. Jadi user bisa bertanya hal apapun kepada Asisten Belajar ini. 
 <br>
-<h3><b>Reminder Jadwal</b></h3><span style="color: red;"><b>(Unavailable)</b></span>
+<h3><b>Reminder Jadwal</b></h3>
+<span style="color: red;"><b>(Unavailable)</b></span>
 <br>
 Fitur ini merupakan fitur yang masih dalam tahap pengembangan. Fungsi dari fitur ini yaitu berupa pembuatan jadwal belajar otomatis dan alarm belajar otomatis yang dapat mengingatkan kita untuk belajar.
 <br>
-<h3><b>Partner Belajar</b></h3><span style="color: red;"><b>(Unavailable)</b></span>
+<h3><b>Partner Belajar</b></h3>
 <span style="color: red;"><b>(Unavailable)</b></span>
 <br>
 Sama seperti fitur Reminder Jadwal fitur ini juga merupakan fitur yang masih dalam tahap pengembangan. Kegunaan dari fitur ini berupa teman belajar yang bisa diajak bicara oleh user baik menggunakan teks ataupun menggunakan suara.
